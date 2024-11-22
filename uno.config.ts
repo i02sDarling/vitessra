@@ -18,6 +18,10 @@ import {
 // pnpm add -D @unocss/transformer-attributify-jsx
 export default defineConfig({
   // ...UnoCSS options
+  shortcuts: {
+    'border-base': 'border-1 border-solid border-[#535bf2]',
+    'div-radius': 'border-radius-2',
+  },
   presets: [
     presetUno(),
     presetAttributify(),
